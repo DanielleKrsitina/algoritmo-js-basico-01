@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+
+<script>
+
+    // Entrada - Solicita o valor do produto
+    const produto = Number(prompt("Informe o valor R$:"))
+
+    // Processamento - Calcula os valores à vista e com desconto
+    const desconto =  produto - (produto * 0.10)
+    const parcela = produto / 3
+    
+    // Saída - Total dos valores é exibido
+    alert(`À Vista R$: ${desconto.toFixed(2)}\nOu 3x de R$: ${parcela.toFixed(2)}`)
+
+</script>
